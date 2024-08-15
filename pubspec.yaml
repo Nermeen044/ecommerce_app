@@ -1,0 +1,45 @@
+name: ecommerce_app
+description: "A new Flutter project."
+publish_to: 'none' # Prevents the package from being published to pub.dev
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+ # Changed to cover stable releases
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.8 # Cupertino Icons for iOS style icons
+  flutter_verification_code: ^1.1.7
+  flutter_staggered_animations: ^1.1.1
+  shared_preferences: ^2.2.3
+  #  image_picker: ^1.1.2
+
+  
+  
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Recommended lints for good coding practices
+
+
+flutter:
+  uses-material-design: true # Include Material Icons font
+
+  assets:
+    - assets/images/ # Path to your image assets
+    - assets/products/ # Fixed missing space
+    - assets/cards/
+    - assets/flags/
+
+  fonts:
+    - family: fontyy # Name of your font family
+      fonts:
+        - asset: assets/fonts/Courgette-Regular.ttf # Path to your font asset
